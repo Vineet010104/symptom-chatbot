@@ -124,7 +124,7 @@ UI_TEXT = {
         "name_label": "What is your name?", "age_label": "Please enter your age:", "gender_label": "What is your gender?",
         "gender_options": ["Male", "Female", "Other"], "symptoms_label": "Describe your symptoms (any language):",
         "submit_button": "Submit", "warning_fill_fields": "Please enter your name and symptoms to continue.",
-        "thinking": "Thinking...", "detected_symptoms": "✅ Detected symptoms: {}",
+        "thinking": "Analyzing and translating results...", "detected_symptoms": "✅ Detected symptoms: {}",
         "error_no_symptoms": "❌ Sorry, I could not detect valid symptoms. Please try again with more details.",
         "guided_questions_header": "🤔 Guided Questions", "guided_info": "Based on your initial symptoms, you may have **{}** (Confidence: {}%).",
         "guided_prompt": "To get a more accurate diagnosis, please answer a few more questions...",
@@ -144,9 +144,60 @@ UI_TEXT = {
         "health_history_button": "📜 My Health History", "health_history_header": "My Health History",
         "no_history": "You have no saved diagnosis history.", "back_to_chatbot": "⬅️ Back to Chatbot",
         "download_pdf": "📄 Download Report as PDF", "report_title": "Health Diagnosis Report",
-        "generating_audio": "Generating audio..."
+        "generating_audio": "Generating audio...",
+        "audio_summary": "The diagnosis suggests you may have {}. Please read the description and precautions listed on the page for more details.",
+        "audio_error": "Sorry, the audio could not be generated at this time due to high traffic. Please try again later."
     },
-    # Add translations for new keys to other languages as needed
+    "hi": {
+        "title": "हेल्थकेयर चैटबॉट",
+        "intro": "नमस्ते! मैं एक चैटबॉट हूँ जो आपको प्रारंभिक लक्षण विश्लेषण में मदद करने के लिए बनाया गया है।",
+        "name_label": "आपका नाम क्या है?",
+        "age_label": "कृपया अपनी उम्र दर्ज करें:",
+        "gender_label": "आपका लिंग क्या है?",
+        "gender_options": ["पुरुष", "महिला", "अन्य"],
+        "symptoms_label": "अपने लक्षणों का वर्णन करें (किसी भी भाषा में):",
+        "submit_button": "जमा करें",
+        "warning_fill_fields": "जारी रखने के लिए कृपया अपना नाम और लक्षण दर्ज करें।",
+        "thinking": "परिणामों का विश्लेषण और अनुवाद किया जा रहा है...", "detected_symptoms": "✅ पहचाने गए लक्षण: {}",
+        "error_no_symptoms": "❌ क्षमा करें, मैं वैध लक्षणों का पता नहीं लगा सका।",
+        "guided_questions_header": "🤔 निर्देशित प्रश्न",
+        "guided_info": "आपके प्रारंभिक लक्षणों के आधार पर, आपको **{}** हो सकता है (विश्वास: {}%)।",
+        "guided_prompt": "अधिक सटीक निदान प्राप्त करने के लिए, कृपया कुछ और प्रश्नों के उत्तर दें।",
+        "guided_symptom_prompt": "क्या आपको **{}** भी है?",
+        "guided_button": "अंतिम निदान प्राप्त करें",
+        "no_more_questions": "पूछने के लिए और कोई प्रश्न नहीं हैं।",
+        "result_header": "✨ निदान परिणाम",
+        "diagnosis_sub": "🩺 आपके उत्तरों के आधार पर, आपको **{}** हो सकता है",
+        "confidence_label": "विश्वास स्तर",
+        "about_sub": "📖 के बारे में",
+        "precautions_sub": "🛡️ सुझाए गए सावधानियां",
+        "no_description": "कोई विवरण उपलब्ध नहीं है।",
+        "start_over": "शुरू करें",
+        "thank_you": "चैटबॉट का उपयोग करने के लिए धन्यवाद, **{}**!",
+        "login_header": "लॉगिन",
+        "username_label": "उपयोगकर्ता नाम",
+        "password_label": "पासवर्ड",
+        "login_button": "लॉगिन",
+        "login_error": "गलत उपयोगकर्ता नाम या पासवर्ड।",
+        "logout_button": "लॉगआउट",
+        "play_audio": "🔊 निदान सुनें",
+        "signup_header": "साइन अप करें",
+        "signup_button": "साइन अप करें",
+        "signup_success": "खाता सफलतापूर्वक बनाया गया! कृपया लॉगिन करें।",
+        "signup_error_exists": "यह उपयोगकर्ता नाम पहले से मौजूद है।",
+        "signup_error_fields": "कृपया उपयोगकर्ता नाम और पासवर्ड दोनों दर्ज करें।",
+        "nav_to_signup": "खाता नहीं है? साइन अप करें",
+        "nav_to_login": "पहले से ही खाता है? लॉगिन करें",
+        "health_history_button": "📜 मेरा स्वास्थ्य इतिहास",
+        "health_history_header": "मेरा स्वास्थ्य इतिहास",
+        "no_history": "आपका कोई सहेजा हुआ निदान इतिहास नहीं है।",
+        "back_to_chatbot": "⬅️ चैटबॉट पर वापस जाएं",
+        "download_pdf": "📄 रिपोर्ट को पीडीएफ के रूप में डाउनलोड करें",
+        "report_title": "स्वास्थ्य निदान रिपोर्ट",
+        "generating_audio": "ऑडियो बना रहा है...",
+        "audio_summary": "निदान से पता चलता है कि आपको {} हो सकता है। अधिक जानकारी के लिए कृपया पृष्ठ पर दिए गए विवरण और सावधानियों को पढ़ें।",
+        "audio_error": "क्षमा करें, इस समय अधिक ट्रैफिक के कारण ऑडियो उत्पन्न नहीं किया जा सका। कृपया बाद में पुनः प्रयास करें।"
+    },
 }
 
 TTS_VOICES = {
@@ -160,7 +211,6 @@ TTS_VOICES = {
 def load_data():
     try:
         training = pd.read_csv('Data/Training.csv')
-        # ... (rest of function is the same)
         testing = pd.read_csv('Data/Testing.csv')
         training.columns = training.columns.str.strip().str.replace('_', ' ')
         testing.columns = testing.columns.str.strip().str.replace('_', ' ')
@@ -528,7 +578,7 @@ else:
             save_diagnosis_to_history(st.session_state.name, st.session_state.symptoms_list, disease, confidence)
             st.session_state.result_saved = True
 
-        # --- UPDATED TRANSLATION LOGIC ---
+        # --- BATCH TRANSLATION AND PROACTIVE AUDIO GENERATION ---
         with st.spinner(lang_texts["thinking"]):
             precautions_en = precautionDictionary.get(disease, [])
             description_en = description_list.get(disease, lang_texts["no_description"])
@@ -536,7 +586,15 @@ else:
             translated_disease, translated_description, translated_precautions = translate_result_texts(
                 disease, description_en, precautions_en, st.session_state.lang
             )
+            
+            # --- PROACTIVELY GENERATE AND CACHE AUDIO HERE ---
+            if st.session_state.audio_bytes is None:
+                audio_summary_text = lang_texts.get("audio_summary", "...").format(translated_disease)
+                pcm_audio_bytes = generate_tts_with_backoff(lambda: call_tts_api(audio_summary_text, st.session_state.lang))
+                if pcm_audio_bytes:
+                    st.session_state.audio_bytes = pcm_to_wav(pcm_audio_bytes)
 
+        # Display results AFTER everything is ready
         st.subheader(lang_texts["diagnosis_sub"].format(translated_disease))
         st.metric(label=lang_texts["confidence_label"], value=f"{confidence}%")
         st.markdown("---")
@@ -561,20 +619,14 @@ else:
             mime="application/pdf"
         )
         
+        # --- SIMPLIFIED AUDIO DISPLAY ---
+        audio_placeholder = st.empty()
         if st.button(lang_texts["play_audio"]):
-            if st.session_state.audio_bytes is None:
-                with st.spinner(lang_texts.get("generating_audio", "Generating audio...")):
-                    full_text = f"{lang_texts['diagnosis_sub'].format(translated_disease)}. {lang_texts['about_sub']}: {translated_description}."
-                    if translated_precautions:
-                        full_text += f" {lang_texts['precautions_sub']}: " + " ".join(translated_precautions)
-                    
-                    pcm_audio_bytes = generate_tts_with_backoff(lambda: call_tts_api(full_text, st.session_state.lang))
-                    
-                    if pcm_audio_bytes:
-                        st.session_state.audio_bytes = pcm_to_wav(pcm_audio_bytes)
-        
-        if st.session_state.audio_bytes is not None:
-            st.audio(st.session_state.audio_bytes, format="audio/wav")
+            if st.session_state.audio_bytes:
+                audio_placeholder.audio(st.session_state.audio_bytes, format="audio/wav")
+            else:
+                # This message will show if the proactive generation failed
+                audio_placeholder.error(lang_texts["audio_error"])
         
         st.info("💡 " + random.choice(["🌸 Health is wealth...", "💪 A healthy outside starts from the inside..."]))
         st.markdown(lang_texts["thank_you"].format(st.session_state.name))
