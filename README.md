@@ -16,6 +16,10 @@ Multilingual Support: The system will be capable of understanding and responding
 2.3. User Data and History Management
 Personalized Dashboard: A personalized dashboard will be available for each user, providing a complete history of their past diagnoses.
 
+
+
+
+
 Diagnosis History: The dashboard will maintain a log of symptoms entered, diseases classified, and the date of each interaction, offering a private health record.
 
 2.4. Documentation and Reporting
@@ -50,3 +54,25 @@ Integration with Wearables: Incorporate data from wearables (e.g., smartwatches)
 Telemedicine Integration: Add the ability for users to connect directly with a healthcare professional after a diagnosis.
 
 Real-time Public Health Alerts: Use the system to push real-time alerts about local disease outbreaks or public health advisories.
+
+<img width="1869" height="760" alt="Screenshot 2025-09-13 084013" src="https://github.com/user-attachments/assets/a7b1a354-4b49-41e0-a9b8-f99389302e8e" />
+<img width="1865" height="763" alt="Screenshot 2025-09-13 084030" src="https://github.com/user-attachments/assets/523b41b2-6c14-4ac6-b473-8512d77be6df" />
+<img width="1755" height="802" alt="Screenshot 2025-09-13 084116" src="https://github.com/user-attachments/assets/423ac583-8c35-48e2-84e8-cc3802ec9e54" />
+<img width="1659" height="661" alt="Screenshot 2025-09-13 084126" src="https://github.com/user-attachments/assets/7f1b8142-47b5-48c5-bc94-9784624ef61c" />
+<img width="1729" height="781" alt="Screenshot 2025-09-13 084137" src="https://github.com/user-attachments/assets/c030c60f-ccf8-43a1-a339-12d3eb75d01c" />
+<img width="1728" height="768" alt="Screenshot 2025-09-13 084337" src="https://github.com/user-attachments/assets/418f5e30-e01a-43a2-a624-80a005f22b7f" />
+<img width="1751" height="736" alt="Screenshot 2025-09-13 084359" src="https://github.com/user-attachments/assets/d38687b8-73ed-4f3f-a954-18180a5f470a" />
+<img width="1734" height="789" alt="Screenshot 2025-09-13 084428" src="https://github.com/user-attachments/assets/fb1af0da-210a-4e69-af1c-984266018ff3" />
+<img width="1184" height="723" alt="Screenshot 2025-09-13 084515" src="https://github.com/user-attachments/assets/13ecc67e-00fa-42be-ae0f-c22af16afbf2" />
+<img width="1170" height="576" alt="Screenshot 2025-09-13 084528" src="https://github.com/user-attachments/assets/70de627e-4eb3-4ecf-b0f0-6c1307300f17" />
+<img width="1741" height="712" alt="Screenshot 2025-09-13 084549" src="https://github.com/user-attachments/assets/e92e368b-9fc7-45b4-9cc3-73ff1600e9ac" />
+
+
+
+
+
+
+
+
+
+
